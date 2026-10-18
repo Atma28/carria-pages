@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="referrer" content="no-referrer" />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; style-src 'unsafe-inline'; img-src 'none'; font-src 'none'; connect-src 'none'; script-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <title>Carria</title>
+    <style>
+      :root {
+        --bleu: #2563eb;
+        --ardoise: #0f172a;
+        --ardoise-clair: #475569;
+        --fond: #f8fafc;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        min-height: 100vh;
+        padding: 24px 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: var(--fond);
+        color: var(--ardoise);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.6;
+        -webkit-text-size-adjust: 100%;
+      }
+
+      main {
+        max-width: 30rem;
+        text-align: center;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        letter-spacing: -0.03em;
+        margin: 0 0 12px;
+      }
+      h1 .a {
+        color: var(--ardoise);
+      }
+      h1 .b {
+        color: var(--bleu);
+      }
+
+      p {
+        margin: 0;
+        font-size: 1.125rem;
+        color: var(--ardoise-clair);
+      }
+
+      p[lang="en"] {
+        margin-top: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1><span class="a">Car</span><span class="b">ria</span></h1>
+      <!--
+        Une phrase, et rien d'autre. Pas de lien : les pages légales n'existent
+        pas encore, et un lien mort est pire que pas de lien.
+      -->
+      <p lang="fr">Votre assistant professionnel pour booster votre carrière.</p>
+      <p lang="en">Your professional assistant to boost your career.</p>
+    </main>
+  </body>
+</html>
